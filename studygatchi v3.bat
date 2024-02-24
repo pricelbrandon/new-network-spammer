@@ -2,6 +2,7 @@
 :START
 setlocal EnableDelayedExpansion
 rem huehuehueLETSFUCKINGOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+rem ty to the kitten militia for the motivation
 rem generates random SSID, removes need for wordlists
 set "chars=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 set "SSID="
@@ -33,5 +34,5 @@ rem stop Ad-hoc network
 netsh wlan stop hostednetwork > nul
 
 echo Ad-hoc Network stopped.
-rem ty to the kitten militia for the motivation!
+
 goto START
