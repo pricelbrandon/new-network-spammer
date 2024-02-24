@@ -33,5 +33,5 @@ rem stop Ad-hoc network
 netsh wlan stop hostednetwork > nul
 
 echo Ad-hoc Network stopped.
-
+rem ty to the kitten militia for the motivation!
 goto START
